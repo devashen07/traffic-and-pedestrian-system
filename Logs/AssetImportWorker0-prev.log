@@ -22,57 +22,57 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61454
+61610
 Successfully changed project path to: /Users/devashengovender/Desktop/projects/traffic-and-pedestrian-system
 /Users/devashengovender/Desktop/projects/traffic-and-pedestrian-system
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/devashengovender/Desktop/projects/traffic-and-pedestrian-system/Assets
 GfxDevice: creating device client; threaded=0
-2022-02-28 23:03:37.550 Unity[30232:885554] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
-2022-02-28 23:03:37.550 Unity[30232:885554] Metal devices available: 2
-2022-02-28 23:03:37.550 Unity[30232:885554] 0: AMD Radeon Pro 5500M (high power)
-2022-02-28 23:03:37.550 Unity[30232:885554] 1: Intel(R) UHD Graphics 630 (low power)
-2022-02-28 23:03:37.551 Unity[30232:885554] Using device AMD Radeon Pro 5500M (high power)
+2022-02-28 23:12:06.398 Unity[30455:891576] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+2022-02-28 23:12:06.398 Unity[30455:891576] Metal devices available: 2
+2022-02-28 23:12:06.398 Unity[30455:891576] 0: AMD Radeon Pro 5500M (high power)
+2022-02-28 23:12:06.398 Unity[30455:891576] 1: Intel(R) UHD Graphics 630 (low power)
+2022-02-28 23:12:06.398 Unity[30455:891576] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56455
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002159 seconds.
+Registered in 0.000438 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 26.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.666 seconds
+- Completed reload, in  0.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (666ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (489ms)
-			LoadAssemblies (95ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (171ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (26ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (104ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (97ms)
 				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -80,43 +80,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005605 seconds.
+Registered in 0.001407 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1099ms)
-		BeginReloadAssembly (164ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (288ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (209ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000287 seconds.
+Validating Project structure ... 0.002617 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000411 seconds.
+Upgrading shader files ...0.002697 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -130,14 +130,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.5 MB.
-System memory in use after: 175.7 MB.
+System memory in use before: 190.0 MB.
+System memory in use after: 189.7 MB.
 
-Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 1974.
-Total: 3.195546 ms (FindLiveObjects: 0.120394 ms CreateObjectMapping: 0.047113 ms MarkObjects: 2.583931 ms  DeleteObjects: 0.443466 ms)
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.632293 ms (FindLiveObjects: 0.101152 ms CreateObjectMapping: 0.036510 ms MarkObjects: 2.345708 ms  DeleteObjects: 0.148373 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -151,41 +151,1225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(690ebf518d51b4f5d812a1f0140bec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(690ebf518d51b4f5d812a1f0140bec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916f1c6c7bad6ca8eada887bf1f71dab') in 0.003321 seconds 
-  Import took 0.006124 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(6e3a79bdf9fce410abb7a41ee02acbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(6e3a79bdf9fce410abb7a41ee02acbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ea33f28ceaf7b4e6eddc22e0fc5d39') in 0.234752 seconds 
+  Import took 0.239641 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(7126d3230a18c40568f62cd57c0f1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(7126d3230a18c40568f62cd57c0f1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f2a565d6a9fec4472f1ff9ebf61f5f') in 0.001178 seconds 
-  Import took 0.003413 seconds .
+  Time since last request: 214.801167 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector
+  artifactKey: Guid(adc5d207e6f0a406f9bcb0d3e64312f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector using Guid(adc5d207e6f0a406f9bcb0d3e64312f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc68ea007b83e1e4612036cd38561f5') in 0.001514 seconds 
+  Import took 0.004904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765395 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack
+  artifactKey: Guid(e7936b04baec8e74a8c44bdfaa78534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack using Guid(e7936b04baec8e74a8c44bdfaa78534f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09f6f8b3c7132de1a63b532e5ce8b30') in 0.000840 seconds 
+  Import took 0.002955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.445788 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo
+  artifactKey: Guid(2469141f37ffafb4784fc96766e97a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo using Guid(2469141f37ffafb4784fc96766e97a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d6c7e81cdaab1d0d2847ff290ce7a') in 0.001890 seconds 
+  Import took 0.004851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.988845 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Low Poly Road Pack Demo.unity
+  artifactKey: Guid(8d68a8c139112ee4387ec230ac89a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Low Poly Road Pack Demo.unity using Guid(8d68a8c139112ee4387ec230ac89a4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671a3587a833b480a48c2445cc3c0078') in 0.001265 seconds 
+  Import took 0.004007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.119453 seconds.
+  path: Assets/Scenes/TrafficSystem.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TrafficSystem.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25209bf324f50f0d0169e2a50e027948') in 0.001791 seconds 
+  Import took 0.004989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.239291 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs
+  artifactKey: Guid(0f48a9b0e4fdd3f42a1d84e8d51f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs using Guid(0f48a9b0e4fdd3f42a1d84e8d51f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bdf3ff9bc417dd09a73572014f2ae3') in 0.001087 seconds 
+  Import took 0.003325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072205 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab
+  artifactKey: Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Car 1.prefab using Guid(9c91ecea7f7dce04facaeb11c977e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f4969cf59210aadcd2f67c25aed10e') in 0.216935 seconds 
+  Import took 0.222260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab
+  artifactKey: Guid(ad182cc030f80d2418924040efeaaedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 1.prefab using Guid(ad182cc030f80d2418924040efeaaedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078608fe9d1a7a8a954c2ad79684d013') in 0.009544 seconds 
+  Import took 0.011951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Join Road.prefab
+  artifactKey: Guid(c5fef14080d92e1448368c964f4f1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Join Road.prefab using Guid(c5fef14080d92e1448368c964f4f1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043d5edfd065c9078ee39902ef647358') in 0.007973 seconds 
+  Import took 0.010187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Road.prefab
+  artifactKey: Guid(b74054c7819af8a458ae5a11853280ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Road.prefab using Guid(b74054c7819af8a458ae5a11853280ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5479e10d876db9351d733ea7c1572976') in 0.008418 seconds 
+  Import took 0.010966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 1.prefab
+  artifactKey: Guid(61bdc52826fce8f4d82932062de95073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 1.prefab using Guid(61bdc52826fce8f4d82932062de95073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f3a50db6d98ca8baf503068773a8b3') in 0.008777 seconds 
+  Import took 0.011114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane End.prefab
+  artifactKey: Guid(fc2ff23d1db8b1445bbc99fccb47754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane End.prefab using Guid(fc2ff23d1db8b1445bbc99fccb47754c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8bd85bbff96dabcaae4912da6d3b48f') in 0.007008 seconds 
+  Import took 0.009156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 3.prefab
+  artifactKey: Guid(ed0aae2e11d87014f915283c004cede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 3.prefab using Guid(ed0aae2e11d87014f915283c004cede3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df934d1741d9252c7656eead1e0a13b6') in 0.007049 seconds 
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 1.prefab
+  artifactKey: Guid(3851756c71fc60741a0f9a8b4cf1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 1.prefab using Guid(3851756c71fc60741a0f9a8b4cf1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f628ca43028c584df20510398a3945') in 0.007509 seconds 
+  Import took 0.009759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Cross SIngleLane.prefab
+  artifactKey: Guid(7037b12e33ea2dc4a98a52fc649b62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Cross SIngleLane.prefab using Guid(7037b12e33ea2dc4a98a52fc649b62f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd401dc7da94e7d0b9292296404802bc0') in 0.007877 seconds 
+  Import took 0.010086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Lift Highway.prefab
+  artifactKey: Guid(fc9bdb938304f4e45bc5977a6f3058df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Lift Highway.prefab using Guid(fc9bdb938304f4e45bc5977a6f3058df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2667bf0149338eeb51cba87256405a') in 0.009305 seconds 
+  Import took 0.011756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab
+  artifactKey: Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Freeway.prefab using Guid(67b75b5f8253ef64c9aaab70b17ec06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a6b934f9123e5450d16560d6805bfe') in 0.008121 seconds 
+  Import took 0.010987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab
+  artifactKey: Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Cross Road.prefab using Guid(7ff5db574d5d2df479ee7bae7f713787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cfad31b3e121d5baed0cb2f26ea67b') in 0.006819 seconds 
+  Import took 0.009191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 2.prefab
+  artifactKey: Guid(e22ea203430a7754fa2d9f5192effac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 2.prefab using Guid(e22ea203430a7754fa2d9f5192effac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfaf8d60c45f5d0034cd52684349224') in 0.007643 seconds 
+  Import took 0.009795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab
+  artifactKey: Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 1.prefab using Guid(0956ca3f790e2b44eabfe04ddcb999f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7031109a49da0473869afa72a3a6e4') in 0.008157 seconds 
+  Import took 0.010446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab
+  artifactKey: Guid(517cd28356a64ae4ca59346763bafa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Road.prefab using Guid(517cd28356a64ae4ca59346763bafa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b762d934c4fbf2f069fd5a052ade48a1') in 0.009704 seconds 
+  Import took 0.012072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab
+  artifactKey: Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway S-Curve.prefab using Guid(b21431263a66fd84ebb8c5a9f3e51709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e14da3ee9c45f0fa5abaa1f19a3db4c') in 0.008815 seconds 
+  Import took 0.011148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 1.prefab
+  artifactKey: Guid(68199663c6e51f44bae66172807b8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Curve 1.prefab using Guid(68199663c6e51f44bae66172807b8014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0fa56f7f954a631e1600e5d1973e18') in 0.008838 seconds 
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Join SIngleLane.prefab
+  artifactKey: Guid(8820d45b6122a1a44b6d1a75e97a5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Join SIngleLane.prefab using Guid(8820d45b6122a1a44b6d1a75e97a5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0208d6167a6ba7adcb51e525bd21733c') in 0.008555 seconds 
+  Import took 0.010983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 2.prefab
+  artifactKey: Guid(b902c7d22d14fa843846ba35e963190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 2.prefab using Guid(b902c7d22d14fa843846ba35e963190b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b5f04e20384b2b60a26817d3286b7') in 0.007873 seconds 
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab
+  artifactKey: Guid(3981927452c32484d9640b2bf295fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 4.prefab using Guid(3981927452c32484d9640b2bf295fc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef541e6ea8e08adfb76385f0cd23135e') in 0.009344 seconds 
+  Import took 0.012523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Cross SingleLane.prefab
+  artifactKey: Guid(4ad77816d1959bd49a799a1fdeb67987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Cross SingleLane.prefab using Guid(4ad77816d1959bd49a799a1fdeb67987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669ab9f721b5e60943b97be47bb7a61d') in 0.007799 seconds 
+  Import took 0.010307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 4.prefab
+  artifactKey: Guid(4d2cdf2836f78914f85386a10cd7db79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 4.prefab using Guid(4d2cdf2836f78914f85386a10cd7db79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dd96d9410ec1db9be97cea3eea79a2') in 0.009084 seconds 
+  Import took 0.011386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Jump.prefab
+  artifactKey: Guid(d995f875a84ca0f4c952dd644d6dbd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Jump.prefab using Guid(d995f875a84ca0f4c952dd644d6dbd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8682fbb9599784c6e93977233f9741c') in 0.007024 seconds 
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab
+  artifactKey: Guid(6373f7d3f749b254081c2c8c9372face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 1.prefab using Guid(6373f7d3f749b254081c2c8c9372face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d94c3e652b03a10d45ddf153feed49') in 0.011960 seconds 
+  Import took 0.014384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Road.prefab
+  artifactKey: Guid(58cb49345998e1e4ebc99dfa7af32696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Road.prefab using Guid(58cb49345998e1e4ebc99dfa7af32696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869e968a3b85e3984c1f948105736df9') in 0.011363 seconds 
+  Import took 0.014233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab
+  artifactKey: Guid(401d27194e0344948b125cf0483f7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Lift Highway.prefab using Guid(401d27194e0344948b125cf0483f7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec82ed8e9824170ce9e3df976611620') in 0.008608 seconds 
+  Import took 0.010867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab
+  artifactKey: Guid(409109bbaa58cf340b5fea204e6aac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Join Freeway 2.prefab using Guid(409109bbaa58cf340b5fea204e6aac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ddfdd9ffca052c5f1d951251e49658') in 0.009378 seconds 
+  Import took 0.011727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab
+  artifactKey: Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 2.prefab using Guid(260ff3c3667b2bd4f82382b31d2ef823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8689170455eab771927f47513717fbf') in 0.010333 seconds 
+  Import took 0.013258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane S-Curve.prefab
+  artifactKey: Guid(5d8d2fcae15c57f46b59943e3db78e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane S-Curve.prefab using Guid(5d8d2fcae15c57f46b59943e3db78e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9786514a93913f2073d8a0ee6ce8e0f3') in 0.009022 seconds 
+  Import took 0.011892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road S-Curve.prefab
+  artifactKey: Guid(70accd32f42b80b40a1a83ef93f9b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road S-Curve.prefab using Guid(70accd32f42b80b40a1a83ef93f9b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bc063b50043b5a9d904590969d9ad6') in 0.008193 seconds 
+  Import took 0.010450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Entrance.prefab
+  artifactKey: Guid(60eed786d7a83604ea71df548e30b85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Entrance.prefab using Guid(60eed786d7a83604ea71df548e30b85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f71394d1c372e513b04ec0ab9e03c4') in 0.006193 seconds 
+  Import took 0.008404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Looping.prefab
+  artifactKey: Guid(ecf4e1c9068d83f4d9d991b1c0903616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Looping.prefab using Guid(ecf4e1c9068d83f4d9d991b1c0903616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f4fc4d72a17b442fcdb03301187e32') in 0.010172 seconds 
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Cross Road.prefab
+  artifactKey: Guid(93bec4dd0427e844db426ee1317979ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Cross Road.prefab using Guid(93bec4dd0427e844db426ee1317979ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53faeef74cd6acab96c7b6e91c4fdb88') in 0.008057 seconds 
+  Import took 0.010339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Curve.prefab
+  artifactKey: Guid(834e3b05077e0b445961489bb25da1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Curve.prefab using Guid(834e3b05077e0b445961489bb25da1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e907c20ae4b31e4cff86300a68774e7') in 0.008265 seconds 
+  Import took 0.010415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 1.prefab
+  artifactKey: Guid(1b5a40444f59ff64997f9b2966f28a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 1.prefab using Guid(1b5a40444f59ff64997f9b2966f28a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cc8645983f5d35c595f8efba6a648d') in 0.007360 seconds 
+  Import took 0.009676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 2.prefab
+  artifactKey: Guid(5687d55acdf3c094aa163098fed8dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 2.prefab using Guid(5687d55acdf3c094aa163098fed8dbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f9fcd21d658e4e2e2cce858d692996') in 0.007178 seconds 
+  Import took 0.009575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 3.prefab
+  artifactKey: Guid(0dd93b050725d874f92e2caeffb53367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 3.prefab using Guid(0dd93b050725d874f92e2caeffb53367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80fec4e1580a98ee81bd37764efb7d9') in 0.007810 seconds 
+  Import took 0.010430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 2.prefab
+  artifactKey: Guid(7df4389373e28db469018e35144066e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Edge 2.prefab using Guid(7df4389373e28db469018e35144066e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2316e62702eb1a18fbf9e32e7d21d8ae') in 0.007172 seconds 
+  Import took 0.009476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Join SingleLane.prefab
+  artifactKey: Guid(82697fef831cee04ab4411218e725f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Join SingleLane.prefab using Guid(82697fef831cee04ab4411218e725f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f738a389565918fa5dcc7c9222969ee4') in 0.007991 seconds 
+  Import took 0.010188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 1.prefab
+  artifactKey: Guid(aa844cbc7cd603f45b3a56fed001aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 1.prefab using Guid(aa844cbc7cd603f45b3a56fed001aee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ed82c69ce4c6606f8530fed238eb6a') in 0.009562 seconds 
+  Import took 0.011861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab
+  artifactKey: Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 1.prefab using Guid(b5baae8b9b6343c4484a2886ccff5179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f715f4b999b886fce708bea2fd75c082') in 0.006573 seconds 
+  Import took 0.009090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab
+  artifactKey: Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Car 2.prefab using Guid(8a6f09027b5c26b4b8d2f6d00dbce6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb72d77bd60454b6bcc69bcbc7dce6c') in 0.010476 seconds 
+  Import took 0.013283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab
+  artifactKey: Guid(d1e269106cb165145985fd4f36cd816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Freeway.prefab using Guid(d1e269106cb165145985fd4f36cd816f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a479e676ed57d64e66cb9acb6aa1217f') in 0.009240 seconds 
+  Import took 0.011639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab
+  artifactKey: Guid(66ec34d11111716468cb9de6c840b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 1.prefab using Guid(66ec34d11111716468cb9de6c840b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f968fede4b30890a4bd123ea33d64d97') in 0.006730 seconds 
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab
+  artifactKey: Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Curve 2.prefab using Guid(d2b4c92a59cf1a441bf008ca26395efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d6f36316842395335c83580ece1d5') in 0.006922 seconds 
+  Import took 0.009233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab
+  artifactKey: Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Straight 3.prefab using Guid(27efc696dd4698a43a8c68ebcf493a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c4e5ac4c0c6739a07097d5a2af5c2') in 0.008728 seconds 
+  Import took 0.011001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 2.prefab
+  artifactKey: Guid(ea8ec36c7f9b40f4faa40bf80afec5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Freeway Straight 2.prefab using Guid(ea8ec36c7f9b40f4faa40bf80afec5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b7f58805f23a493429685d9e618c93') in 0.006481 seconds 
+  Import took 0.009017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab
+  artifactKey: Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Center 3.prefab using Guid(baf7bb04094c1fe4d994d728999eae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d74781c42dee68f9e47ec546648690') in 0.006982 seconds 
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 3.prefab
+  artifactKey: Guid(43678520060fa5e42add8825ab61da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Road Straight 3.prefab using Guid(43678520060fa5e42add8825ab61da06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3495d9b05351ffdd7c9c8111cef8c8e9') in 0.007104 seconds 
+  Import took 0.009290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab
+  artifactKey: Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Parkinglot Corner 2.prefab using Guid(f78f74ffdc7f6c84bbc45b41161fb58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a560f2abc6b269a2ebb4a97f01849') in 0.007401 seconds 
+  Import took 0.009525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab
+  artifactKey: Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Cross Highway.prefab using Guid(ea578c43b60d6d4448daa4d3c1ac0e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4d70e42e9a2d197f52d87358a4515c') in 0.008000 seconds 
+  Import took 0.010294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway S-Curve.prefab
+  artifactKey: Guid(c551be7c89271e44c8a795eff4869f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway S-Curve.prefab using Guid(c551be7c89271e44c8a795eff4869f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51ee72e254d8f5b78c1215cb8723005') in 0.007879 seconds 
+  Import took 0.010208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 2.prefab
+  artifactKey: Guid(51c576822a7a42345b47955233d25adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Join Highway 2.prefab using Guid(51c576822a7a42345b47955233d25adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195edc866d7874d15227ec7bdba6b8ff') in 0.008581 seconds 
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Curve.prefab
+  artifactKey: Guid(12f915ef0d4a22244967366bf9764406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Curve.prefab using Guid(12f915ef0d4a22244967366bf9764406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cd2f5096a85f7ae51cd178494f30d5') in 0.008088 seconds 
+  Import took 0.010411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab
+  artifactKey: Guid(25e5c01865542e449bf00fcc40da6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 2.prefab using Guid(25e5c01865542e449bf00fcc40da6a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf47429342282b048e6617ad434f1a51') in 0.006780 seconds 
+  Import took 0.008901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab
+  artifactKey: Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Highway Bridge 1.prefab using Guid(8d7240f2f0843e442b11595c5465dbf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645661dc2bde5e91d3a7737481256efe') in 0.008585 seconds 
+  Import took 0.010967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 1.prefab
+  artifactKey: Guid(9b0c19ad39b17024baf069bf79a4f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 1.prefab using Guid(9b0c19ad39b17024baf069bf79a4f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7193eb10c8abe35a82f278a3b57f54c8') in 0.007607 seconds 
+  Import took 0.009994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.083702 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 2.prefab
+  artifactKey: Guid(da7d67abfde295449857038a411bd14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/SingleLane Straight 2.prefab using Guid(da7d67abfde295449857038a411bd14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455cf269933ee71e95f633edda229f42') in 0.009174 seconds 
+  Import took 0.011654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Straight 1.prefab
+  artifactKey: Guid(e5fe1e0ae98e92240a79ae5a288119ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Straight 1.prefab using Guid(e5fe1e0ae98e92240a79ae5a288119ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aad50306a2ace81c5cbe3480c2f048') in 0.007005 seconds 
+  Import took 0.009320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Curve.prefab
+  artifactKey: Guid(72e0f34fa25621649ab63b1abedef4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Curve.prefab using Guid(72e0f34fa25621649ab63b1abedef4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d57b3b12c782656bc6e83515a9b6162') in 0.008120 seconds 
+  Import took 0.010497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Straight 4.prefab
+  artifactKey: Guid(a746d36c593c3134488d9e58478b528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Straight 4.prefab using Guid(a746d36c593c3134488d9e58478b528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ba6e3b78e93a02771f60e97c960a80') in 0.009697 seconds 
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Entrance 1.prefab
+  artifactKey: Guid(ceba717d01c1fa1458e34f93acc30651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Entrance 1.prefab using Guid(ceba717d01c1fa1458e34f93acc30651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dca2e59fc18d9273a36dbdc85e3661') in 0.008370 seconds 
+  Import took 0.010644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Entrance 2.prefab
+  artifactKey: Guid(0d02144b05217a74890541efcaaed4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Prefabs/Tunnel Entrance 2.prefab using Guid(0d02144b05217a74890541efcaaed4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339310d76ddc8c03f0002c7b62800341') in 0.008913 seconds 
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 689.825263 seconds.
+  path: Assets/Scenes/TrafficSystem.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TrafficSystem.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a52d96bbb3805a64e0f448414a38789') in 0.003136 seconds 
+  Import took 0.005661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.036801 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(a3e35994ff54c4711b0176d28440b73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(a3e35994ff54c4711b0176d28440b73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70273a60207b31c12b1491e8d048aef0') in 0.001679 seconds 
+  Import took 0.004207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.670996 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(359f7bf16154e4a4aab0a2cb6f101e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green.mat using Guid(359f7bf16154e4a4aab0a2cb6f101e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d89bb9fea9e932a217f641b8390fbc7') in 0.162334 seconds 
+  Import took 0.167471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2109.092964 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models
+  artifactKey: Guid(f3312f4dcef561c4c8f1651abc38bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models using Guid(f3312f4dcef561c4c8f1651abc38bd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea100db831bdcb9e20cea41983af5e9') in 0.002070 seconds 
+  Import took 0.004918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140970 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Car 1.dae
+  artifactKey: Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Car 1.dae using Guid(26e8d194fbf5bca409d8e2a931e7a028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abfe8d3bbd70008b50e8bfc26482a3a') in 0.390863 seconds 
+  Import took 0.398966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 1.dae
+  artifactKey: Guid(73b78b99c269f4e4982b125270a38b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 1.dae using Guid(73b78b99c269f4e4982b125270a38b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054389fca82efdfc74be4306ffb968b5') in 0.011555 seconds 
+  Import took 0.014454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 2.dae
+  artifactKey: Guid(42e238ecb6fe5c34381c1899f40cdc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 2.dae using Guid(42e238ecb6fe5c34381c1899f40cdc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b717771d2bb1c842a7ca06fb2da8d209') in 0.014713 seconds 
+  Import took 0.017420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 4.dae
+  artifactKey: Guid(de7d72739316cac4eae2ef92efa78c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 4.dae using Guid(de7d72739316cac4eae2ef92efa78c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e95f7bb082d538acba3a90f25d45cd') in 0.009852 seconds 
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road S-Curve.dae
+  artifactKey: Guid(1f10034eb2d822e47b73756fa15f8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road S-Curve.dae using Guid(1f10034eb2d822e47b73756fa15f8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c64580b662c8c5940ff7ae62d445c0') in 0.010404 seconds 
+  Import took 0.012718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Entrance.dae
+  artifactKey: Guid(c123f92dda3cc22459ede19497c88734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Entrance.dae using Guid(c123f92dda3cc22459ede19497c88734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f437a5f8ead87b967130869d757f414') in 0.010526 seconds 
+  Import took 0.013057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Curve 1.dae
+  artifactKey: Guid(861ccec3a0efad5458d9082800f92467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Curve 1.dae using Guid(861ccec3a0efad5458d9082800f92467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab45c13fc5964332e03da675452da35d') in 0.013067 seconds 
+  Import took 0.015303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae
+  artifactKey: Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 3.dae using Guid(236b6964c04aad0409d80ab50c92d8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a42020fc7508f51cad5e6854e44bf10') in 0.010145 seconds 
+  Import took 0.012448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Cross SIngleLane.dae
+  artifactKey: Guid(24e6433201fc69a44bf1c8f256d8b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Cross SIngleLane.dae using Guid(24e6433201fc69a44bf1c8f256d8b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14d8330c12b4a637a716b3e9e89beed') in 0.010845 seconds 
+  Import took 0.013183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 2.dae
+  artifactKey: Guid(d2b804c3ccb706e469c72128589fb32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 2.dae using Guid(d2b804c3ccb706e469c72128589fb32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22abb295bd172be08a960915a18818a6') in 0.011902 seconds 
+  Import took 0.014086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 1.dae
+  artifactKey: Guid(71a6712b53f17d642b18dd7dd3873131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 1.dae using Guid(71a6712b53f17d642b18dd7dd3873131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8e09f3d8be3744a313b0a5f74fd9c5') in 0.012721 seconds 
+  Import took 0.014897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 1.dae
+  artifactKey: Guid(ef63e826ce0e5e94fa9002fc1c038b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 1.dae using Guid(ef63e826ce0e5e94fa9002fc1c038b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd41b64e32c454c744abf25349904c5') in 0.010184 seconds 
+  Import took 0.012339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae
+  artifactKey: Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 2.dae using Guid(df7aef7b3f5b34f438e1f16d9f25c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470be5754625ac54853c6dd8c8980bae') in 0.010878 seconds 
+  Import took 0.013045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 1.dae
+  artifactKey: Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 1.dae using Guid(b4923c0dba942fa43a6c6e6831a89113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5efaf8658e0157878d85b849db2da8') in 0.010807 seconds 
+  Import took 0.012994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae
+  artifactKey: Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 1.dae using Guid(de9f00a88308eb741b7da04ed6699c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5980e78d2ad492878f3bc4452dae45') in 0.012175 seconds 
+  Import took 0.014433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 4.dae
+  artifactKey: Guid(6390c4a61a53b5446adaed9ccacea90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 4.dae using Guid(6390c4a61a53b5446adaed9ccacea90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5a1f6799be7af1178fe6a93d01dcde') in 0.011275 seconds 
+  Import took 0.013545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 1.dae
+  artifactKey: Guid(69f4b809270776f4aaa4b23e75155df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 1.dae using Guid(69f4b809270776f4aaa4b23e75155df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3805e308257ff1341ea38a24bf01e') in 0.011117 seconds 
+  Import took 0.013264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae
+  artifactKey: Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway S-Curve.dae using Guid(901bb15896c0ed444a89af207f0d0ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1928735c4a65fa94b85b3c7f2e3d823') in 0.010800 seconds 
+  Import took 0.013046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Jump.dae
+  artifactKey: Guid(0f18aa325d40e124db7ca43efb3adacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Jump.dae using Guid(0f18aa325d40e124db7ca43efb3adacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7628f989dfde1886d11d3d51cf23606') in 0.010955 seconds 
+  Import took 0.013229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae
+  artifactKey: Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 2.dae using Guid(f05a64e3c823b5247ad0f4f8f37f52f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd660d4a1626f82fe9b02941e5a1a26e') in 0.010750 seconds 
+  Import took 0.013190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 1.dae
+  artifactKey: Guid(0b3034fd1a5bb254d8e081e8634d075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Entrance 1.dae using Guid(0b3034fd1a5bb254d8e081e8634d075f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccf5ef066c8235a3299b897152ae20d') in 0.011148 seconds 
+  Import took 0.013484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 2.dae
+  artifactKey: Guid(e7dfa1315d7d3164fb4e39956f2357ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 2.dae using Guid(e7dfa1315d7d3164fb4e39956f2357ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dbd7ca58a1d9a0101340eca7c3864e') in 0.009584 seconds 
+  Import took 0.012075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae
+  artifactKey: Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Road.dae using Guid(0c21f7d1828800d44a5452b9bca476f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdff9427d0c08adb3507edc71a4dde19') in 0.012646 seconds 
+  Import took 0.015192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 1.dae
+  artifactKey: Guid(ea3f0b0f36c78ca4282e2e49f378cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 1.dae using Guid(ea3f0b0f36c78ca4282e2e49f378cef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2ed5123f6b986cf5a6b2f0c9ca7527') in 0.017260 seconds 
+  Import took 0.019553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae
+  artifactKey: Guid(1869066258e66524dabd0031005b03ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Join Road.dae using Guid(1869066258e66524dabd0031005b03ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd5dc1bd1dd4207b74ca674351ca8e0') in 0.011128 seconds 
+  Import took 0.013678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane End.dae
+  artifactKey: Guid(4887d8bc9c96f564c944f169b9acb35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane End.dae using Guid(4887d8bc9c96f564c944f169b9acb35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b5b360dede5c9c154a38085abf2918') in 0.013676 seconds 
+  Import took 0.016606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 3.dae
+  artifactKey: Guid(1adf648894424ae47bca5445562efba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Corner 3.dae using Guid(1adf648894424ae47bca5445562efba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e82c9e3bd242425c823d49131271ac4') in 0.011885 seconds 
+  Import took 0.014509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae
+  artifactKey: Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Freeway.dae using Guid(72eb0d530cf26e74caefec9fd65ad0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474af189de19f3db0f8702e705bace5') in 0.011597 seconds 
+  Import took 0.013942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane S-Curve.dae
+  artifactKey: Guid(e033f669abc057d4ab3801af0792f88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane S-Curve.dae using Guid(e033f669abc057d4ab3801af0792f88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b72a38001d761203c6c981fc7b5c5ca') in 0.015798 seconds 
+  Import took 0.018865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Lift Highway.dae
+  artifactKey: Guid(2357264b94c408a409585f9979a3990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Lift Highway.dae using Guid(2357264b94c408a409585f9979a3990c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c3a3df70efe909d3767499899788b') in 0.013657 seconds 
+  Import took 0.016273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae
+  artifactKey: Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Bridge 2.dae using Guid(306a3142baf3c0f48acf183ab9a53a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428d2894e40974e5a3502bf8e9213e22') in 0.014657 seconds 
+  Import took 0.017587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae
+  artifactKey: Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway S-Curve.dae using Guid(a6f8c6c7f9b109c45b54b4ea3ab2256b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520fae72a721daed192bb3e74fa03630') in 0.012523 seconds 
+  Import took 0.015038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Car 2.dae
+  artifactKey: Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Car 2.dae using Guid(77034832b22fef34387efcaeb7127eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb90e6bf82d8d150cfec028e98f73739') in 0.046541 seconds 
+  Import took 0.049106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Lift Highway.dae
+  artifactKey: Guid(ebec32a200e40f84ba441fb26dd604c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Lift Highway.dae using Guid(ebec32a200e40f84ba441fb26dd604c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c98c88c3b7665db77288a714630fdf') in 0.013433 seconds 
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae
+  artifactKey: Guid(aebfc22149f8d2a45a601caf54845bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Curve 1.dae using Guid(aebfc22149f8d2a45a601caf54845bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4b0acc9cfdb145ce0d70e7a323a90') in 0.011482 seconds 
+  Import took 0.014088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae
+  artifactKey: Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 1.dae using Guid(18532e9f65bee84488936fca5f9fe8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56898f73268c571431cede37433df2ef') in 0.010307 seconds 
+  Import took 0.012821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae
+  artifactKey: Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Highway.dae using Guid(9737ab9f3cf9c0b4d87af4f5b0108b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087fa508f246eaac8a40d3106ab14569') in 0.011051 seconds 
+  Import took 0.013574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Straight 1.dae
+  artifactKey: Guid(9ebbcf9ad75b23c4b8f2a497607627bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Straight 1.dae using Guid(9ebbcf9ad75b23c4b8f2a497607627bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38806a9bdd1a1a3da8bc6ec69528e11b') in 0.011928 seconds 
+  Import took 0.014091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Curve.dae
+  artifactKey: Guid(e8591f65a7fdd114bba6dd41852de0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Curve.dae using Guid(e8591f65a7fdd114bba6dd41852de0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548c6f3fa376d524fd52e7992744cb16') in 0.011758 seconds 
+  Import took 0.014016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae
+  artifactKey: Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Cross Road.dae using Guid(55ffdfe2a9a2b114ab2e38301ab3c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c36914861d1961e77bb2ec54c5a46d') in 0.012266 seconds 
+  Import took 0.014779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 2.dae
+  artifactKey: Guid(6421912752fc45944a04fb09aae2e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 2.dae using Guid(6421912752fc45944a04fb09aae2e8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab03c75bd66ea0d5e8972eae8022154e') in 0.012380 seconds 
+  Import took 0.014620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae
+  artifactKey: Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Road.dae using Guid(cfcf77940ff021942bc50517e56d54cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee53db28868995abebc1e508c20e2760') in 0.011552 seconds 
+  Import took 0.014469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Join SingleLane.dae
+  artifactKey: Guid(d4b7f9095e4b9734cab4e187c97ba1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Join SingleLane.dae using Guid(d4b7f9095e4b9734cab4e187c97ba1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e38cab95bef5db0def8547d2deaef09') in 0.010601 seconds 
+  Import took 0.012770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 3.dae
+  artifactKey: Guid(6b8e147014e34144f90043861e0abe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Edge 3.dae using Guid(6b8e147014e34144f90043861e0abe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b491a063bb0a2fe1cd73eef284d207be') in 0.010257 seconds 
+  Import took 0.012533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae
+  artifactKey: Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Join Highway 1.dae using Guid(a17f37812c6482942b2b08f8a4b9d2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ef471ec5782e2e157401c820d6ce36') in 0.011473 seconds 
+  Import took 0.013743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Curve 2.dae
+  artifactKey: Guid(c8674672f487bf348a47866ff0632e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Curve 2.dae using Guid(c8674672f487bf348a47866ff0632e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a76a4f966006a0978be92613c41637') in 0.012044 seconds 
+  Import took 0.014284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae
+  artifactKey: Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Cross Road.dae using Guid(8a74d4154e3078a498c1bf96dc3d1660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de249c9dd11b9425b2de931f76490f6') in 0.012968 seconds 
+  Import took 0.015223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Curve.dae
+  artifactKey: Guid(391f4d072c0c3df4884006cdbef382ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Curve.dae using Guid(391f4d072c0c3df4884006cdbef382ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b65adbcf21264478413c217699d2c7e') in 0.009900 seconds 
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Curve.dae
+  artifactKey: Guid(61ebcd8c80cab1a4e9864d570e883fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Curve.dae using Guid(61ebcd8c80cab1a4e9864d570e883fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc8a25db9ab7a2d32f907c94b17d3c4') in 0.012434 seconds 
+  Import took 0.014795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 2.dae
+  artifactKey: Guid(78a8961655872db4b843048acb88450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Straight 2.dae using Guid(78a8961655872db4b843048acb88450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69edd0ff1436ae6126174c1d925eed3c') in 0.010790 seconds 
+  Import took 0.013139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae
+  artifactKey: Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Freeway 2.dae using Guid(333adb85cff2d42459cd00449998046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604e2028df900931471c11be2b426870') in 0.011929 seconds 
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 3.dae
+  artifactKey: Guid(84f030ebdfeda2448bc8b294323ceeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 3.dae using Guid(84f030ebdfeda2448bc8b294323ceeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb2732f9cff68db64c0efd5d33fd9a9') in 0.010401 seconds 
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 2.dae
+  artifactKey: Guid(23337dac036abd34499f9f5131a19858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 2.dae using Guid(23337dac036abd34499f9f5131a19858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591034282c19211e2b3e71fa2f690ca3') in 0.010922 seconds 
+  Import took 0.013294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Looping.dae
+  artifactKey: Guid(3489a6b45e153324991c8f803c6e0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Looping.dae using Guid(3489a6b45e153324991c8f803c6e0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e33679de5906149f02a6316882e2d33') in 0.011619 seconds 
+  Import took 0.013932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae
+  artifactKey: Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Straight 1.dae using Guid(d515ab1e7b3b8254b942625c58c86f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73915356a83f5472d4ef87e26732103') in 0.009340 seconds 
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae
+  artifactKey: Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Join SIngleLane.dae using Guid(b85b6366741d14e4a96828e1afad90e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc062f77e83a83573a1ea34a0452c520') in 0.013554 seconds 
+  Import took 0.015805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Cross SingleLane.dae
+  artifactKey: Guid(36d41065887b764468cd330f24e28531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/SingleLane Cross SingleLane.dae using Guid(36d41065887b764468cd330f24e28531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf385373ad7804a6ff356bf0fd79c6f') in 0.009797 seconds 
+  Import took 0.012060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae
+  artifactKey: Guid(0505729b78e21cd4487c9a4940bea4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Cross Freeway.dae using Guid(0505729b78e21cd4487c9a4940bea4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73d42f68a634eaab550f7b8e85d30a4') in 0.013254 seconds 
+  Import took 0.015530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Straight 4.dae
+  artifactKey: Guid(f5363fa7f00d1a14dace523483cf17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Tunnel Straight 4.dae using Guid(f5363fa7f00d1a14dace523483cf17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f087e0d86259fb2273a138e2a599b9a') in 0.010297 seconds 
+  Import took 0.012494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 3.dae
+  artifactKey: Guid(628ab3e2fbe6f144d8ab49b2ef8846df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Road Straight 3.dae using Guid(628ab3e2fbe6f144d8ab49b2ef8846df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3730c1c028b8964a77be8e35bf5299') in 0.009962 seconds 
+  Import took 0.012124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae
+  artifactKey: Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Highway Straight 2.dae using Guid(da1a0020a373025418e1119879ed8146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258136349ed566f8e7bd076a9b0d189e') in 0.011472 seconds 
+  Import took 0.013648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Road.dae
+  artifactKey: Guid(5548c48b8a63235488a0afe4b462749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Freeway Join Road.dae using Guid(5548c48b8a63235488a0afe4b462749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f66adcfc3e95b08fa633bb1dccd784') in 0.013142 seconds 
+  Import took 0.015284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 2.dae
+  artifactKey: Guid(76b865b0d72af07469dfd0128ca936bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Models/Parkinglot Center 2.dae using Guid(76b865b0d72af07469dfd0128ca936bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e285d55e9b9095c4989ebd004c1447a') in 0.010237 seconds 
+  Import took 0.013112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.465148 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape
+  artifactKey: Guid(60c4ffeb0e9aa324d9000a9f8249864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape using Guid(60c4ffeb0e9aa324d9000a9f8249864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d920614200c170043cdf9faeb8701') in 0.002653 seconds 
+  Import took 0.005211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127104 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae
+  artifactKey: Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.001.dae using Guid(5040aa18d61033e489ea9265c4f2cca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2764e46cb156645bcefa6d43b58a0a9') in 0.014991 seconds 
+  Import took 0.017824 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000197 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.008081 seconds 
-  Import took 0.010613 seconds .
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae
+  artifactKey: Guid(b2458df65032dda41b5421b69f657d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.003.dae using Guid(b2458df65032dda41b5421b69f657d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379048c7499ff9dcddaabdde2e7d7c5b') in 0.017684 seconds 
+  Import took 0.020315 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.095002 seconds.
-  path: Assets/Scenes/TrafficSystem.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TrafficSystem.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55fa8924ca7ddbfbf0e34ff939f02cd') in 0.001045 seconds 
-  Import took 0.003906 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.012.dae
+  artifactKey: Guid(51f7d944b367bb94abd599e0af5cf265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.012.dae using Guid(51f7d944b367bb94abd599e0af5cf265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8897f2f648c3c353bea9942d0284a1c6') in 0.013725 seconds 
+  Import took 0.016089 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.600060 seconds.
-  path: Assets/3d-Model-Packs
-  artifactKey: Guid(db2b5edfa084b43fc82d301f66f6e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3d-Model-Packs using Guid(db2b5edfa084b43fc82d301f66f6e828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd69f19b8e8e6b772f5e00610312e525') in 0.001288 seconds 
-  Import took 0.003575 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae
+  artifactKey: Guid(f366ec1535b72a841ac031961d69f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.006.dae using Guid(f366ec1535b72a841ac031961d69f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2849db958de8dce3f5c4bbd07d29b3d9') in 0.011873 seconds 
+  Import took 0.014119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.008.dae
+  artifactKey: Guid(2296d07369e67c646b2d0d7f242d8449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.008.dae using Guid(2296d07369e67c646b2d0d7f242d8449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f246dc0e287729c2e96aa721f23ddb') in 0.011695 seconds 
+  Import took 0.013907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.013.dae
+  artifactKey: Guid(facee1ea21c798142b0bbba6183d9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.013.dae using Guid(facee1ea21c798142b0bbba6183d9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6c6e3ee00df8799ccfe332d9623611') in 0.013835 seconds 
+  Import took 0.016092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Mountain.dae
+  artifactKey: Guid(f494957cbd9ff2b498af112b5c3ea4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Mountain.dae using Guid(f494957cbd9ff2b498af112b5c3ea4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c1ee8dc5f7cf2e3db6894e0fe8a478') in 0.012686 seconds 
+  Import took 0.014842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.009.dae
+  artifactKey: Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.009.dae using Guid(46908de83c0ca15498206df2dc007ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a43db88ad78a1ad29774d71699d7074') in 0.011305 seconds 
+  Import took 0.013586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.011.dae
+  artifactKey: Guid(f24e9cf354f004442b97cffbb3bbd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.011.dae using Guid(f24e9cf354f004442b97cffbb3bbd911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdee71f7fae9efaa75b0a10d866e7734') in 0.010396 seconds 
+  Import took 0.012599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae
+  artifactKey: Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.004.dae using Guid(f9b12965751b78e4d807b064d0420bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3d0b1350124a5ceff1b70a595375c1') in 0.012348 seconds 
+  Import took 0.014639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae
+  artifactKey: Guid(e9374469e886d8649b6b92c468834057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.002.dae using Guid(e9374469e886d8649b6b92c468834057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87efef74b4a89ae15f680aee67d50576') in 0.012398 seconds 
+  Import took 0.014689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.005.dae
+  artifactKey: Guid(9cc9d043ba5c64744aef14901c30eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.005.dae using Guid(9cc9d043ba5c64744aef14901c30eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1edaad3d323771bb078c9c37b96432d') in 0.012620 seconds 
+  Import took 0.014771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.010.dae
+  artifactKey: Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.010.dae using Guid(960597deba6aae644952d370b3c462a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9ac54ac40deba7d0dd6d2d0084eaca') in 0.012533 seconds 
+  Import took 0.014710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae
+  artifactKey: Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3d-Model-Packs/BrokenVector/LowPolyRoadPack/Demo/Landscape/Houses.007.dae using Guid(3e00f6b092fa0844290d6e031b6aa3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187a76ae0e9794ed9220d7269248bbe2') in 0.011334 seconds 
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 321.094952 seconds.
+  path: Assets/Scenes/RoadMap.unity
+  artifactKey: Guid(c7dd791028e5d4140abe2ea401778aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RoadMap.unity using Guid(c7dd791028e5d4140abe2ea401778aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bcebaa76f7083262e2fd952d6238e6') in 0.002806 seconds 
+  Import took 0.005542 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
