@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     public float movementSpeed = 1; 
-    public float rotationSpeed = 360; 
+    public float rotationSpeed = 500; 
     public float stopDistance = 2f; 
     public Vector3 destination; 
     public bool reachedDestination;
@@ -13,7 +13,10 @@ public class MovementController : MonoBehaviour
     private Vector3 lastPostion;
     
     
-    public GameObject raycastStartingPoint = null;
+    public GameObject raycastMiddle = null;
+    public GameObject raycastLeft = null;
+    public GameObject raycastRight = null;
+
 
     [SerializeField]
     private float collisionRaycastLength = 0.1f;
@@ -25,11 +28,9 @@ public class MovementController : MonoBehaviour
     {
         
         movementSpeed = Random.Range(3f,6f);
-        rotationSpeed = 240f; 
+        rotationSpeed = 500f; 
 
     }
-
-    
 
     public bool Stop 
     {
@@ -82,7 +83,9 @@ public class MovementController : MonoBehaviour
 
     private void CheckCollision()
     {
-        if (Physics.Raycast(raycastStartingPoint.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer))
+        if (Physics.Raycast(raycastLeft.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) || 
+            Physics.Raycast(raycastMiddle.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
+            Physics.Raycast(raycastRight.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer))
         {
             collisionStop = true; 
         }

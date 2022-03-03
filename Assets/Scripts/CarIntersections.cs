@@ -17,11 +17,9 @@ public class CarIntersections : MonoBehaviour
         {
             var car = other.GetComponent<MovementController>();
 
-            Debug.Log("I am triggered");
 
             if (car != null && car != currentCar )
             {
-                Debug.Log("I am stopping");
                 trafficQueue.Enqueue(car);
                 car.Stop = true; 
             }
