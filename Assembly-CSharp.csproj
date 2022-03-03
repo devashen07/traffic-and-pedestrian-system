@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/RandomSpawner.cs" />
+     <Compile Include="Assets/Scripts/Navigator.cs" />
      <Compile Include="Assets/Scripts/Waypoint.cs" />
      <Compile Include="Assets/Scripts/MovementController.cs" />
-     <Compile Include="Assets/Scripts/Navigator.cs" />
+     <Compile Include="Assets/Scripts/CarIntersections.cs" />
      <None Include="Assets/3d-Model-Packs/Snowconesolid Assets/Block People/Snowconesolid Assets ReadMe.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.28f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -10,6 +10,8 @@ public class Waypoint : MonoBehaviour
     [Range(0f, 5f)]
     public float width = 1.8f; 
 
+    
+
     public Vector3 GetPosition()
     {
         Vector3 minBound = transform.position + transform.right * width / 2f; 

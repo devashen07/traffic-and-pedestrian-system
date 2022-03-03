@@ -23,6 +23,8 @@ public class Navigator : MonoBehaviour
     {
         if (controller.reachedDestination)
         {
+            
+
             currentWaypoint = currentWaypoint.nextWaypoint;
             controller.SetDestination(currentWaypoint.GetPosition());
         }

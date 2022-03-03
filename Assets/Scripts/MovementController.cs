@@ -5,17 +5,36 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     public float movementSpeed = 1; 
-    public float rotationSpeed = 120; 
+    public float rotationSpeed = 360; 
     public float stopDistance = 2f; 
     public Vector3 destination; 
     public bool reachedDestination;
 
     private Vector3 lastPostion;
-    Vector3 velocity;
+    
+    
+    public GameObject raycastStartingPoint = null;
+
+    [SerializeField]
+    private float collisionRaycastLength = 0.1f;
+    
+    private bool stop; 
+    private bool collisionStop = false; 
 
     private void Awake()
     {
-        movementSpeed = 6f;
+        
+        movementSpeed = Random.Range(3f,6f);
+        rotationSpeed = 240f; 
+
+    }
+
+    
+
+    public bool Stop 
+    {
+        get { return stop || collisionStop; }
+        set { stop = value; }
     }
 
     // Update is called once per frame
@@ -40,21 +59,36 @@ public class MovementController : MonoBehaviour
                 reachedDestination = true; 
             }
 
-            velocity = (transform.position - lastPostion) / Time.deltaTime;
-            velocity.y = 0; 
-            var velocityMagnitude = velocity.magnitude;
-            velocity = velocity.normalized; 
-
-            //var fwdDotProduct = Vector3.Dot(transform.forward, velocity);
-
-            //transform.position = Vector3.MoveTowards(transform.position, , movementSpeed * Time.deltaTime);
             
         }
+
+        if (Stop)
+        {
+            movementSpeed = 0; 
+        }
+        else
+        {
+            movementSpeed = Random.Range(4f, 6f);
+        }
+
+        CheckCollision();
     }
 
     public void SetDestination(Vector3 destination)
     {
         this.destination = destination;
         reachedDestination = false; 
+    }
+
+    private void CheckCollision()
+    {
+        if (Physics.Raycast(raycastStartingPoint.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer))
+        {
+            collisionStop = true; 
+        }
+        else
+        {
+            collisionStop = false; 
+        }
     }
 }

@@ -42,6 +42,7 @@ public class WaypointCreator : EditorWindow
 
         if (Selection.activeGameObject != null && Selection.activeGameObject.GetComponent<Waypoint>())
         {
+
             if (GUILayout.Button("Create Waypoint Before"))
             {
                 CreateWaypointBefore();
@@ -151,4 +152,6 @@ public class WaypointCreator : EditorWindow
         DestroyImmediate(selectedWaypoint.gameObject);
         
     }
+
+    
 }
