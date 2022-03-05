@@ -16,26 +16,28 @@ public class CarIntersections : MonoBehaviour
         if (other.CompareTag("Car"))
         {
             var car = other.GetComponent<MovementController>();
-
-
             if (car != null && car != currentCar )
             {
                 trafficQueue.Enqueue(car);
                 car.Stop = true; 
+                
             }
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (currentCar == null)
         {
             if (trafficQueue.Count > 0)
             {
                 currentCar = trafficQueue.Dequeue();
-                currentCar.Stop = false; 
+                //currentCar.collisionRaycastLength = 0f; 
+                currentCar.Stop = false;  
             }
+           
         }
+        
     }
 
     private void OnTriggerExit(Collider other)
@@ -46,7 +48,9 @@ public class CarIntersections : MonoBehaviour
 
             if (car != null)
             {
+                //car.collisionRaycastLength = 0.5f; 
                 RemoveCar(car);
+                
             }
         }
     }

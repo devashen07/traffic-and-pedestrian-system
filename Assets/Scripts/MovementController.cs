@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float movementSpeed = 1; 
-    public float rotationSpeed = 500; 
+    public float movementSpeed = 4; 
+    public float rotationSpeed = 10000; 
     public float stopDistance = 2f; 
     public Vector3 destination; 
     public bool reachedDestination;
@@ -16,21 +16,26 @@ public class MovementController : MonoBehaviour
     public GameObject raycastMiddle = null;
     public GameObject raycastLeft = null;
     public GameObject raycastRight = null;
+    public GameObject raycastAngleLeft = null;
+    public GameObject raycastAngleRight = null;
 
 
     [SerializeField]
-    private float collisionRaycastLength = 0.1f;
+    public float collisionRaycastLength = 0.5f;
     
     private bool stop; 
     private bool collisionStop = false; 
 
-    private void Awake()
-    {
+    //private void Awake()
+    //{
         
-        movementSpeed = Random.Range(3f,6f);
-        rotationSpeed = 500f; 
+        //movementSpeed = 4f;
+        //rotationSpeed = 10000f; 
+        //collisionRaycastLength = 0.3f;
 
-    }
+        //Random.Range(0, 5.5f)
+
+    //}
 
     public bool Stop 
     {
@@ -69,7 +74,7 @@ public class MovementController : MonoBehaviour
         }
         else
         {
-            movementSpeed = Random.Range(4f, 6f);
+            movementSpeed = 4f;
         }
 
         CheckCollision();
@@ -85,7 +90,9 @@ public class MovementController : MonoBehaviour
     {
         if (Physics.Raycast(raycastLeft.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) || 
             Physics.Raycast(raycastMiddle.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
-            Physics.Raycast(raycastRight.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer))
+            Physics.Raycast(raycastRight.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
+            Physics.Raycast(raycastAngleLeft.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
+            Physics.Raycast(raycastAngleRight.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer))
         {
             collisionStop = true; 
         }

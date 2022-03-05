@@ -8,7 +8,7 @@ public class Waypoint : MonoBehaviour
     public Waypoint nextWaypoint; 
 
     [Range(0f, 5f)]
-    public float width = 1.8f; 
+    public float width = 1f; 
 
     
 
