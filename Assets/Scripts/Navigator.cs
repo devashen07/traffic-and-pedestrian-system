@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This script is responsible for navigating the a car or pedestrian along a path.
+/// </summary>
+
 public class Navigator : MonoBehaviour
 {
     MovementController controller; 
@@ -23,8 +27,6 @@ public class Navigator : MonoBehaviour
     {
         if (controller.reachedDestination)
         {
-            
-
             currentWaypoint = currentWaypoint.nextWaypoint;
             controller.SetDestination(currentWaypoint.GetPosition());
         }

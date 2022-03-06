@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This script is responsible for how cars move through an intersection. 
+/// According to the principle of First In First Out (FIFO).
+/// </summary>
+
 
 public class CarIntersections : MonoBehaviour
 {
@@ -9,15 +14,16 @@ public class CarIntersections : MonoBehaviour
 
     public MovementController currentCar; 
 
+    // Car hits intersection's box collider 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("I am at an intersection");
-
+        // See whether its a car using tags
         if (other.CompareTag("Car"))
         {
             var car = other.GetComponent<MovementController>();
             if (car != null && car != currentCar )
             {
+                // Add car to queue and stop car 
                 trafficQueue.Enqueue(car);
                 car.Stop = true; 
                 
@@ -31,8 +37,8 @@ public class CarIntersections : MonoBehaviour
         {
             if (trafficQueue.Count > 0)
             {
+                // Dequeue cars in an orderly fashion 
                 currentCar = trafficQueue.Dequeue();
-                //currentCar.collisionRaycastLength = 0f; 
                 currentCar.Stop = false;  
             }
            
@@ -40,6 +46,7 @@ public class CarIntersections : MonoBehaviour
         
     }
 
+    // Car exits intersections box collider, remove car 
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Car"))
@@ -48,7 +55,6 @@ public class CarIntersections : MonoBehaviour
 
             if (car != null)
             {
-                //car.collisionRaycastLength = 0.5f; 
                 RemoveCar(car);
                 
             }

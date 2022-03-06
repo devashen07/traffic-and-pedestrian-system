@@ -2,25 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This script is responsible for moving both the car and pedestrian prefabs. 
+/// It also contains methods for stopping the prefabs at intersections and not 
+/// colliding with one another.
+/// </summary>
+
+
 public class MovementController : MonoBehaviour
 {
+    // Initial Declarations for Prefab Movement
     public float movementSpeed = 4; 
     public float rotationSpeed = 10000; 
     public float stopDistance = 2f; 
     public Vector3 destination; 
     public bool reachedDestination;
+    public GameObject type; 
 
     private Vector3 lastPostion;
 
-    public GameObject type; 
-    
-    
+    // Declarations for Raycasts 
     public GameObject raycastMiddle = null;
     public GameObject raycastLeft = null;
     public GameObject raycastRight = null;
     public GameObject raycastAngleLeft = null;
     public GameObject raycastAngleRight = null;
-
 
     [SerializeField]
     public float collisionRaycastLength = 0.5f;
@@ -30,7 +36,7 @@ public class MovementController : MonoBehaviour
 
     private void Awake()
     {
-
+        // parameters for Car and Pedestrian --> Speed random range 
         if (type.tag == "Car")
         {
             movementSpeed = Random.Range(3f, 5.5f);
@@ -43,9 +49,6 @@ public class MovementController : MonoBehaviour
             rotationSpeed = 10000f; 
             collisionRaycastLength = 0.1f;
         }
-        
-
-        //Random.Range(0, 5.5f)
 
     }
 
@@ -54,13 +57,14 @@ public class MovementController : MonoBehaviour
         get { return stop || collisionStop; }
         set { stop = value; }
 
-        //
     }
 
 
     // Update is called once per frame
     void Update()
     {
+        //Movement travelling to next set waypoint
+
         if (transform.position != destination)
         {
             Vector3 destinationDirection = destination - transform.position;
@@ -74,14 +78,13 @@ public class MovementController : MonoBehaviour
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
                 transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
             }
-
             else
             {
                 reachedDestination = true; 
             }
-
-            
         }
+
+        // Execute stop (ie. speed to zero)
         if (Stop)
         {
             if (type.tag == "Car")
@@ -106,7 +109,6 @@ public class MovementController : MonoBehaviour
                 movementSpeed = Random.Range(1f, 2f);
                 
             }
-            //movementSpeed = Random.Range(3f, 5.5f);
         }
 
         CheckCollision();
@@ -117,7 +119,8 @@ public class MovementController : MonoBehaviour
         this.destination = destination;
         reachedDestination = false; 
     }
-
+    
+    // Identifying hit for Raycast (hence Collision), action is to stop the car so a following distance can be obtained.
     private void CheckCollision()
     {
         if (type.tag == "Car")
