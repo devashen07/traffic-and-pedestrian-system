@@ -15,7 +15,7 @@ A demo video can be found following this link:
 
 https://drive.google.com/drive/folders/1MEb4sCoQVg0gL8ThnlRl-P0Rk_VCRotD?usp=sharing
 
-To get the best viewing experience please stream video in 1080p :)
+To get the best viewing experience please stream the video in 1080p or alternatively download :)
 
 ## 3D Model Assets 
 
@@ -50,7 +50,7 @@ In order for cars not to collide with one another, a following distance had to b
 
 - ### Four-Way and Three-Way Stop Interactions 
 
-Four-way and 3-way stop interactions work on a first come first serve basis, similar to First In First Out (FIFO). Hence the most appropiate data structure to use is a Queue. As cars enter an intersection, a box collider is present triggering ```OnTriggerEnter``` where a car is stopped and added to the queue, as updates roll out cars are dequeued creating an orderly movement of cars through an intersection. 
+Four-way and three-way stop interactions work on a first come first serve basis, similar to First In First Out (FIFO). Hence the most appropiate data structure to use is a Queue. As cars enter an intersection, a box collider is present triggering ```OnTriggerEnter``` where a car is stopped and added to the queue, as updates roll out cars are dequeued creating an orderly movement of cars through an intersection. 
 
 - ### Pedestrian Zebra Crossing 
 
