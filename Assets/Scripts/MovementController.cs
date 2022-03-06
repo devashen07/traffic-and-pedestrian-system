@@ -11,6 +11,8 @@ public class MovementController : MonoBehaviour
     public bool reachedDestination;
 
     private Vector3 lastPostion;
+
+    public GameObject type; 
     
     
     public GameObject raycastMiddle = null;
@@ -26,22 +28,35 @@ public class MovementController : MonoBehaviour
     private bool stop; 
     private bool collisionStop = false; 
 
-    //private void Awake()
-    //{
+    private void Awake()
+    {
+
+        if (type.tag == "Car")
+        {
+            movementSpeed = Random.Range(3f, 5.5f);
+            rotationSpeed = 10000f; 
+            collisionRaycastLength = 0.3f;
+        }
+        else 
+        {
+            movementSpeed = Random.Range(1f, 2f);
+            rotationSpeed = 10000f; 
+            collisionRaycastLength = 0.1f;
+        }
         
-        //movementSpeed = 4f;
-        //rotationSpeed = 10000f; 
-        //collisionRaycastLength = 0.3f;
 
         //Random.Range(0, 5.5f)
 
-    //}
+    }
 
     public bool Stop 
     {
         get { return stop || collisionStop; }
         set { stop = value; }
+
+        //
     }
+
 
     // Update is called once per frame
     void Update()
@@ -67,14 +82,31 @@ public class MovementController : MonoBehaviour
 
             
         }
-
         if (Stop)
         {
-            movementSpeed = 0; 
+            if (type.tag == "Car")
+            {
+                movementSpeed = 0;
+            }
+            else
+            {
+                movementSpeed = 0; 
+            }
+            
         }
         else
         {
-            movementSpeed = 4f;
+            if (type.tag == "Car")
+            {
+                movementSpeed = Random.Range(3f, 5.5f);
+                
+            }
+            else 
+            {
+                movementSpeed = Random.Range(1f, 2f);
+                
+            }
+            //movementSpeed = Random.Range(3f, 5.5f);
         }
 
         CheckCollision();
@@ -88,6 +120,10 @@ public class MovementController : MonoBehaviour
 
     private void CheckCollision()
     {
+        if (type.tag == "Car")
+        {
+
+        
         if (Physics.Raycast(raycastLeft.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) || 
             Physics.Raycast(raycastMiddle.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
             Physics.Raycast(raycastRight.transform.position, transform.forward, collisionRaycastLength, 1 << gameObject.layer) ||
@@ -99,6 +135,7 @@ public class MovementController : MonoBehaviour
         else
         {
             collisionStop = false; 
+        }
         }
     }
 }

@@ -5,15 +5,15 @@ using UnityEngine;
 public class RandomSpawner : MonoBehaviour
 {
     [SerializeField]
-    public List<GameObject> objPrefabs = new List<GameObject>(); 
+    public List<GameObject> carPrefabs = new List<GameObject>(); 
 
     [SerializeField] 
     public List<GameObject> invalidWaypoints = new List<GameObject>();
 
-    public int objsToSpawn; 
+    public int carsToSpawn; 
 
 
-    //private bool carIsAlreadyThereFlag = false;
+    private bool carIsAlreadyThereFlag = false;
     private bool invalidWaypointFlag = false; 
     //public int distanceMultiplier;
 
@@ -28,11 +28,11 @@ public class RandomSpawner : MonoBehaviour
         
 
         int count = 0;
-        //int placeCarWaypoint = 0; 
+        int placeCarWaypoint = 0; 
 
-        while(count < objsToSpawn)
+        while(count < carsToSpawn)
         {
-            GameObject obj = Instantiate(objPrefabs[Random.Range(0, objPrefabs.Count -1)]);
+            GameObject obj = Instantiate(carPrefabs[Random.Range(0, carPrefabs.Count -1)]);
             Transform child = transform.GetChild(Random.Range(0, transform.childCount - 1));
             //Transform child = transform.GetChild(placeCarWaypoint);
             obj.GetComponent<Navigator>().currentWaypoint = child.GetComponent<Waypoint>();
