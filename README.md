@@ -1,6 +1,6 @@
 # traffic-and-pedestrian-system
 
-This repo provides Unity source files for a traffic and pedestrian system. The system is a demonstration of four-way and three-way stop intersections and zebra crossing interactions. This project formed part of the technical interview for Fuzzy Logic Studio to demonstrate my coding abilities. I was given this scenario and completed in an accumulative time of 10 hours.  
+This repo provides Unity source files for a traffic and pedestrian system. The system is a demonstration of four-way and three-way stop intersections and zebra crossing interactions. This project formed part of the technical interview for Fuzzy Logic Studio to demonstrate my coding abilities. I was given this scenario and completed it in an accumulative time of 10 hours.  
 
 ## How to use 
 
