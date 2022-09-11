@@ -15,7 +15,7 @@ A demo video can be found following this link:
 
 https://drive.google.com/file/d/1p59I82z6fjla6QrHXjpmQIM5-m8YFkts/view?usp=sharing
 
-To get the best viewing experience please stream the video in 1080p or alternatively download :)
+To get the best viewing experience please DOWNLOAD the video :)
 
 ## 3D Model Assets 
 
