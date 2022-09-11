@@ -13,7 +13,7 @@ This repo provides Unity source files for a traffic and pedestrian system. The s
 
 A demo video can be found following this link: 
 
-https://drive.google.com/drive/folders/1MEb4sCoQVg0gL8ThnlRl-P0Rk_VCRotD?usp=sharing
+https://drive.google.com/file/d/1p59I82z6fjla6QrHXjpmQIM5-m8YFkts/view?usp=sharing
 
 To get the best viewing experience please stream the video in 1080p or alternatively download :)
 
